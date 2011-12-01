@@ -1,3 +1,3 @@
-pref("yant.mode", 1);
+pref("yant.mode", 0);
 pref("yant.url", "http://www.google.com/");
-pref("yant.focusUrl", false);
+pref("yant.focus", false);
