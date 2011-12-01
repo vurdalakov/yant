@@ -3,7 +3,7 @@
 	<script type="application/x-javascript" src="chrome://yant/content/yant.js"/>
 
 	<keyset>
-		<key id="openemptytab" modifiers="control alt" keycode="M" oncommand="yant.openEmptyTab(event)"/>
+		<key id="openemptytab" modifiers="control shift" keycode="M" oncommand="yant.openEmptyTab(event)"/>
 	</keyset>
 
 </overlay>

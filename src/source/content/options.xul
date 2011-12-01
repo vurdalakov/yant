@@ -6,17 +6,17 @@
 <prefpane label="Default Action">
  
   <preferences>
-    <preference id="mode-preference" name="yant.mode" type="int" />
-    <preference id="url-preference" name="yant.url" type="string" />
-    <preference id="focus-preference" name="yant.focus" type="bool" />
+    <preference id="mode-preference" name="extensions.yant.mode" type="int" />
+    <preference id="url-preference" name="extensions.yant.url" type="string" />
+    <preference id="focus-preference" name="extensions.yant.focus" type="bool" />
   </preferences>
  
   <hbox align="top">
     <label control="symbol" value="When new tab opens:" />
     <radiogroup preference="mode-preference">
       <radio label="show my home page" value="0" />
-      <radio label="show this page:" value="1" /> <textbox preference="url-preference" size="64" value=""/>
       <radio label="show a blank page" value="2" />
+      <radio label="show this page:" value="1" /> <textbox preference="url-preference" size="64" value=""/>
     </radiogroup>
   </hbox>
  

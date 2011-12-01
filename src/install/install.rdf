@@ -6,7 +6,7 @@
 	<em:type>2</em:type>  
 	<em:id>yant@vurdalakov.net</em:id>
 	<em:name>Yant</em:name>
-	<em:version>0.1.0</em:version>
+	<em:version>0.1.1</em:version>
 	<em:description>Loads homepage or other URL when new tab is opened in Firefox</em:description>
 	<em:creator>Vurdalakov</em:creator>
 	<em:homepageURL>http://code.google.com/p/yant/</em:homepageURL>
