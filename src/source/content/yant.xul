@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<overlay id="yantOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:nc="http://home.netscape.com/NC-rdf#">
+	<script type="application/x-javascript" src="chrome://yant/content/yant.js"/>
+
+	<keyset>
+		<key id="openemptytab" modifiers="control alt" keycode="M" oncommand="yant.openEmptyTab(event)"/>
+	</keyset>
+
+</overlay>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+	<em:type>2</em:type>  
+	<em:id>yant@vurdalakov.net</em:id>
+	<em:name>Yant</em:name>
+	<em:version>0.1.0</em:version>
+	<em:description>Loads homepage or other URL when new tab is opened in Firefox</em:description>
+	<em:creator>Vurdalakov</em:creator>
+	<em:homepageURL>http://code.google.com/p/yant/</em:homepageURL>
+	<!--em:optionsURL>chrome://yant/content/options.xul</em:optionsURL-->
+	<!--em:iconURL>chrome://yant/content/icon32.png</em:iconURL-->
+	<!--em:aboutURL>chrome://yant/content/about.xul</em:aboutURL-->
+
+	<em:targetApplication>
+		<Description>
+			<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+			<em:minVersion>3.5</em:minVersion>
+			<em:maxVersion>8.*</em:maxVersion>
+		</Description>
+	</em:targetApplication>
+
+	</Description>      
+
+</RDF>
