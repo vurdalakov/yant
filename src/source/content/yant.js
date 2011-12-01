@@ -29,6 +29,14 @@ var yant =
 		var tab = gBrowser.addTab(url);
 		gBrowser.selectedTab = tab;
 
+		if (this.m_preferences.getBoolPref("focus"))
+		{
+			if (gURLBar)
+			{
+				setTimeout(function() { gURLBar.select(); }, 0);
+			}
+		}
+
 		if (aEvent)
 		{
 			aEvent.stopPropagation();

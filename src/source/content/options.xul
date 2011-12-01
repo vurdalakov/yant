@@ -21,7 +21,7 @@
   </hbox>
  
   <hbox align="top">
-    <checkbox preference="focus-preference" checked="false" label="Set focus to location bar" />
+    <checkbox preference="focus-preference" checked="false" label="After new tab is open, set focus to location bar" />
   </hbox>
  
   <hbox>
