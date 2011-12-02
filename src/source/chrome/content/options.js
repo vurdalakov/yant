@@ -53,5 +53,10 @@ var yant_options =
 		
 		elem = document.getElementById("open");
 		elem.href = url;
+	},
+	
+	onAbout: function()
+	{
+		window.openDialog("chrome://yant/content/about.xul", "About", "chrome,titlebar,toolbar,centerscreen,modal");
 	}
 }

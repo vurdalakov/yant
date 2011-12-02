@@ -12,7 +12,7 @@
 	<em:homepageURL>http://code.google.com/p/yant/</em:homepageURL>
 	<em:optionsURL>chrome://yant/content/options.xul</em:optionsURL>
 	<em:iconURL>chrome://yant/content/icon32.png</em:iconURL>
-	<!--em:aboutURL>chrome://yant/content/about.xul</em:aboutURL-->
+	<em:aboutURL>chrome://yant/content/about.xul</em:aboutURL>
 
 	<em:targetApplication>
 		<Description>

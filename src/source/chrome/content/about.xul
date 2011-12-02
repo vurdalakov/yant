@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<dialog title="About Yant" chromehidden="menubar toolbar location directories status extrachrome" buttons="accept" xmlns:em="http://www.mozilla.org/2004/em-rdf#" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+<vbox id="dialog"><vbox flex="1">
+    <hbox>
+        <vbox>
+            <image src="chrome://yant/content/icon64.png" />
+        </vbox>
+        <vbox align="center" flex="1">
+            <hbox>
+                <vbox flex="1" align="center">
+                    <label value="Yant" class="header" />
+                    <label value="Version 0.1.2" />
+                </vbox>
+            </hbox>
+            <separator />
+            <hbox align="center">
+                <vbox>
+                    <label value="Author:" />
+                    <label value="Home page:" />
+                </vbox>
+                <vbox>
+                    <label class="text-link" tooltiptext="Visit author home page" href="http://www.vurdalakov.net" value="Vurdalakov" flex="1" />
+                    <label class="text-link" tooltiptext="Visit add-on home page" href="http://code.google.com/p/yant/" value="http://code.google.com/p/yant/" flex="1" />
+                </vbox>
+            </hbox>
+            <separator />
+            <description>Loads homepage or other URL when new tab is opened in Firefox.</description>
+        </vbox>
+    </hbox>
+</vbox></vbox>
+ 
+</dialog>

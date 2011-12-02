@@ -37,10 +37,12 @@
       </radiogroup>
     </groupbox>
  
-    <label value=" "/>
+    <separator />
  
     <hbox align="top">
       <checkbox preference="focus-preference" checked="false" label="After new tab is open, set focus to location bar" />
+      <spacer flex="1"/>
+      <label class="text-link" href="" value="About" onclick="yant_options.onAbout()" />
     </hbox>
  
   </prefpane>
