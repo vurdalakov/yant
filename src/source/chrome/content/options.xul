@@ -1,34 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
- 
-<prefwindow title="Yant Options" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
- 
-<prefpane label="Default Action">
- 
-  <preferences>
-    <preference id="mode-preference" name="extensions.yant.mode" type="int" />
-    <preference id="url-preference" name="extensions.yant.url" type="string" />
-    <preference id="focus-preference" name="extensions.yant.focus" type="bool" />
-  </preferences>
 
-  <groupbox>
-    <caption label="In new tab"/>
-    <radiogroup preference="mode-preference" id="mode">
-    <radio label="show my home page" value="0" selected="true" />
-    <radio label="show a blank page" value="2" />
-    <hbox>
-      <radio label="show this page:" value="1" />
-      <textbox preference="url-preference" size="64" value=""/>
+<prefwindow title="Yant Options" onload="yant_options.onLoad();" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <prefpane label="Options">
+ 
+    <preferences>
+      <preference id="mode-preference" name="extensions.yant.mode" type="int" />
+      <preference id="url-preference" name="extensions.yant.url" type="string" />
+      <preference id="focus-preference" name="extensions.yant.focus" type="bool" />
+    </preferences>
+ 
+    <groupbox>
+      <caption label="In new tab"/>
+      <radiogroup preference="mode-preference" id="mode">
+    <grid flex="1">
+      <columns>
+      </columns>
+      <rows>
+        <row align="center">
+          <radio label="show my home page" value="0" selected="true" />
+          <label id="homepage" class="text-link" href="" value=""/>
+          <!--button label="Change..." onclick="yant_options.openPreferences()" /-->
+          <label id="homepage" class="text-link" href="" value="Change" onclick="yant_options.openPreferences()" />
+        </row>
+        <row align="center">
+          <radio label="show a blank page" value="2" />
+        </row>
+        <row align="center">
+          <radio label="show this page:" value="1" />
+          <textbox id="url" preference="url-preference" size="64" value="" onchange="yant_options.onUrlChange()"/>
+          <label id="open" class="text-link" href="" value="Open" />
+        </row>
+      </rows>
+    </grid>
+      </radiogroup>
+    </groupbox>
+ 
+    <label value=" "/>
+ 
+    <hbox align="top">
+      <checkbox preference="focus-preference" checked="false" label="After new tab is open, set focus to location bar" />
     </hbox>
-    </radiogroup>
-  </groupbox>
-
-  <label value=" "/>
-
-  <hbox align="top">
-    <checkbox preference="focus-preference" checked="false" label="After new tab is open, set focus to location bar" />
-  </hbox>
  
-</prefpane>
+  </prefpane>
+
+  <script type="application/x-javascript" src="chrome://yant/content/options.js" />
  
 </prefwindow>
