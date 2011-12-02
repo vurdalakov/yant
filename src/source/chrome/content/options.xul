@@ -10,21 +10,23 @@
     <preference id="url-preference" name="extensions.yant.url" type="string" />
     <preference id="focus-preference" name="extensions.yant.focus" type="bool" />
   </preferences>
- 
-  <hbox align="top">
-    <label control="symbol" value="When new tab opens:" />
-    <radiogroup preference="mode-preference">
-      <radio label="show my home page" value="0" />
-      <radio label="show a blank page" value="2" />
-      <radio label="show this page:" value="1" /> <textbox preference="url-preference" size="64" value=""/>
+
+  <groupbox>
+    <caption label="In new tab"/>
+    <radiogroup preference="mode-preference" id="mode">
+    <radio label="show my home page" value="0" selected="true" />
+    <radio label="show a blank page" value="2" />
+    <hbox>
+      <radio label="show this page:" value="1" />
+      <textbox preference="url-preference" size="64" value=""/>
+    </hbox>
     </radiogroup>
-  </hbox>
- 
+  </groupbox>
+
+  <label value=" "/>
+
   <hbox align="top">
     <checkbox preference="focus-preference" checked="false" label="After new tab is open, set focus to location bar" />
-  </hbox>
- 
-  <hbox>
   </hbox>
  
 </prefpane>

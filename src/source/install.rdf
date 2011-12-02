@@ -6,12 +6,12 @@
 	<em:type>2</em:type>  
 	<em:id>yant@vurdalakov.net</em:id>
 	<em:name>Yant</em:name>
-	<em:version>0.1.1</em:version>
+	<em:version>0.1.2</em:version>
 	<em:description>Loads homepage or other URL when new tab is opened in Firefox</em:description>
 	<em:creator>Vurdalakov</em:creator>
 	<em:homepageURL>http://code.google.com/p/yant/</em:homepageURL>
 	<em:optionsURL>chrome://yant/content/options.xul</em:optionsURL>
-	<!--em:iconURL>chrome://yant/content/icon32.png</em:iconURL-->
+	<em:iconURL>chrome://yant/content/icon32.png</em:iconURL>
 	<!--em:aboutURL>chrome://yant/content/about.xul</em:aboutURL-->
 
 	<em:targetApplication>

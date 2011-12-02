@@ -1,2 +1,2 @@
-content yant jar:yant.jar!/content/
+content yant chrome/content/
 overlay chrome://browser/content/browser.xul chrome://yant/content/yant.xul
