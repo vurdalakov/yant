@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
-<overlay id="yantOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:nc="http://home.netscape.com/NC-rdf#">
-	<script type="application/x-javascript" src="chrome://yant/content/yant.js"/>
+<overlay id="vurdalakovYantOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://yant/content/yant.js" />
 
 	<keyset>
-		<key id="vurdalakovYant_openemptytab" modifiers="control shift" keycode="M" oncommand="vurdalakovYant.openEmptyTab(event)"/>
+		<key id="vurdalakovYant_openemptytab" modifiers="control shift" keycode="M" oncommand="vurdalakovYant.openEmptyTab(event)" />
 	</keyset>
 
 </overlay>

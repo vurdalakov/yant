@@ -6,9 +6,9 @@
   <prefpane label="Options">
  
     <preferences>
-      <preference id="mode-preference" name="extensions.yant.mode" type="int" />
-      <preference id="url-preference" name="extensions.yant.url" type="string" />
-      <preference id="focus-preference" name="extensions.yant.focus" type="bool" />
+      <preference id="mode-preference" name="extensions.vurdalakovYant.mode" type="int" />
+      <preference id="url-preference" name="extensions.vurdalakovYant.url" type="string" />
+      <preference id="focus-preference" name="extensions.vurdalakovYant.focus" type="bool" />
     </preferences>
  
     <groupbox>

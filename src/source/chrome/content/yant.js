@@ -2,9 +2,9 @@ var vurdalakovYant =
 {
 	m_preferences: null,
 
-	load: function()
+	onLoad: function()
 	{
-                this.m_preferences = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService).getBranch("extensions.vurdalakovYant.");
+        this.m_preferences = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService).getBranch("extensions.vurdalakovYant.");
 
 		gBrowser.removeEventListener("NewTab", BrowserOpenTab, false);
 		
@@ -60,4 +60,4 @@ var vurdalakovYant =
 	}
 }
 
-window.addEventListener("load", vurdalakovYant.load, false);
+window.addEventListener("load", vurdalakovYant.onLoad, false);
