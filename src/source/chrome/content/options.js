@@ -24,8 +24,16 @@ var yant_options =
 		else
 		{
 			var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
-			var instantApply = prefs.getBoolPref("browser.preferences.instantApply", false);
-			var features = "chrome,titlebar,toolbar,centerscreen," + (instantApply ? "dialog=no" : "modal");
+			var features = "chrome,titlebar,toolbar,centerscreen,";
+            try
+            {
+                var instantApply = prefs.getBoolPref("browser.preferences.instantApply", false);
+                features += instantApply ? "dialog=no" : "modal";
+            }
+            catch (e)
+            {
+                features += "modal";
+            }
 			
 			window.openDialog("chrome://browser/content/preferences/preferences.xul", "Preferences", features);
 		}
