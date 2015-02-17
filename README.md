@@ -1,6 +1,6 @@
-#yant
+# yant
 
-*Do only one thing but do it well.*
+<p align="right"><i>Do only one thing but do it well.</i></p>
 
 ### About
 
@@ -20,7 +20,7 @@ https://addons.mozilla.org/en-US/firefox/addon/yant/
 
 ![yant screenshot](https://raw.githubusercontent.com/vurdalakov/yant/master/img/screenshot1.jpg)
 
-###Frequently asked questions (FAQ)
+### Frequently asked questions (FAQ)
 
 * [How to change add-on options](https://github.com/vurdalakov/yant/wiki/FAQ:-How-to-change-add-on-options)
 
