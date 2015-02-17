@@ -1,4 +1,4 @@
-var yant_options =
+var vurdalakovYant_options =
 {
 	onLoad: function()
 	{
@@ -9,7 +9,7 @@ var yant_options =
 		elem.value = url;
 		elem.href = url;
 
-		yant_options.onUrlChange();
+		vurdalakovYant_options.onUrlChange();
 	},
 	
 	openPreferences: function()

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
 
-<prefwindow title="Yant Options" onload="yant_options.onLoad();" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<prefwindow title="Yant Options" onload="vurdalakovYant_options.onLoad();" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
   <prefpane label="Options">
  
@@ -21,15 +21,15 @@
         <row align="center">
           <radio label="show my home page" value="0" selected="true" />
           <label id="homepage" class="text-link" href="" value=""/>
-          <!--button label="Change..." onclick="yant_options.openPreferences()" /-->
-          <label id="homepage" class="text-link" href="" value="Change" onclick="yant_options.openPreferences()" />
+          <!--button label="Change..." onclick="vurdalakovYant_options.openPreferences()" /-->
+          <label id="homepage" class="text-link" href="" value="Change" onclick="vurdalakovYant_options.openPreferences()" />
         </row>
         <row align="center">
           <radio label="show a blank page" value="2" />
         </row>
         <row align="center">
           <radio label="show this page:" value="1" />
-          <textbox id="url" preference="url-preference" size="64" value="" onchange="yant_options.onUrlChange()"/>
+          <textbox id="url" preference="url-preference" size="64" value="" onchange="vurdalakovYant_options.onUrlChange()"/>
           <label id="open" class="text-link" href="" value="Open" />
         </row>
       </rows>
@@ -42,7 +42,7 @@
     <hbox align="top">
       <checkbox preference="focus-preference" checked="false" label="After new tab is open, set focus to location bar" />
       <spacer flex="1"/>
-      <label class="text-link" href="" value="About" onclick="yant_options.onAbout()" />
+      <label class="text-link" href="" value="About" onclick="vurdalakovYant_options.onAbout()" />
     </hbox>
  
   </prefpane>
