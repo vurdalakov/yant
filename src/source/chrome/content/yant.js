@@ -1,15 +1,15 @@
-var yant =
+var vurdalakovYant =
 {
 	m_preferences: null,
 
 	load: function()
 	{
-                this.m_preferences = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService).getBranch("extensions.yant.");
+                this.m_preferences = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefService).getBranch("extensions.vurdalakovYant.");
 
 		gBrowser.removeEventListener("NewTab", BrowserOpenTab, false);
 		
-		window.BrowserOpenTab = yant.openNewTab;
-		gBrowser.addEventListener("NewTab", yant.openNewTab, false);
+		window.BrowserOpenTab = vurdalakovYant.openNewTab;
+		gBrowser.addEventListener("NewTab", vurdalakovYant.openNewTab, false);
 	},
 	
 	openTab: function(aEvent, url, focus)
@@ -51,7 +51,7 @@ var yant =
 				break;
 		}
 
-		return yant.openTab(aEvent, url, focus);
+		return vurdalakovYant.openTab(aEvent, url, focus);
 	},
 
 	openEmptyTab: function(aEvent)
@@ -60,4 +60,4 @@ var yant =
 	}
 }
 
-window.addEventListener("load", yant.load, false);
+window.addEventListener("load", vurdalakovYant.load, false);
