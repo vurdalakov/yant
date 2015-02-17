@@ -1,8 +1,10 @@
 #yant
 
+*Do only one thing but do it well.*
+
 ### About
 
-**Yant** is <b>y</b>et <b>a</b>nother "<b>n</b>ew <b>t</b>ab" Firefox add-on.
+**Yant** is <b>Y</b>et <b>A</b>nother "<b>N</b>ew <b>T</b>ab" Firefox add-on.
 
 It loads homepage or any other URL when a new tab is open in Firefox.
 
@@ -24,6 +26,6 @@ https://addons.mozilla.org/en-US/firefox/addon/yant/
 
 ### License
 
-Copyright © 2011-2014 Vurdalakov
+Copyright © 2011-2015 [Vurdalakov](http://www.vurdalakov.net)
 
 Yant add-on is licensed under [LGPL](http://www.gnu.org/licenses/lgpl.html).
