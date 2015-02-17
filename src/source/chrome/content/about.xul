@@ -12,7 +12,7 @@
             <hbox>
                 <vbox flex="1" align="center">
                     <label value="Yant" class="header" />
-                    <label value="Version 0.1.2" />
+                    <label value="Version 0.1.3" />
                 </vbox>
             </hbox>
             <separator />
@@ -23,7 +23,7 @@
                 </vbox>
                 <vbox>
                     <label class="text-link" tooltiptext="Visit author home page" href="http://www.vurdalakov.net" value="Vurdalakov" flex="1" />
-                    <label class="text-link" tooltiptext="Visit add-on home page" href="http://code.google.com/p/yant/" value="http://code.google.com/p/yant/" flex="1" />
+                    <label class="text-link" tooltiptext="Visit add-on home page" href="https://github.com/vurdalakov/yant" value="https://github.com/vurdalakov/yant" flex="1" />
                 </vbox>
             </hbox>
             <separator />
