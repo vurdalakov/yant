@@ -8,8 +8,6 @@
 
 It loads homepage or any other URL when a new tab is open in Firefox.
 
-Empty tab can be still open with ```Ctrl+Shift+M``` keyboard shortcut.
-
 ### Download
 
 Download this add-on from Mozilla Add-ons site:
