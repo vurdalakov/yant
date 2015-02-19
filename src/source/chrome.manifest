@@ -1,2 +1,1 @@
 content yant chrome/content/
-overlay chrome://browser/content/browser.xul chrome://yant/content/yant.xul

@@ -3,7 +3,7 @@
 echo *** 1. Initializing
 
 set addon=yant
-set version=0.1.3
+set version=0.2.0
 
 set zipper="C:\Program Files\WinRAR\WinRAR.exe" a -afzip -r 
 set zipper=%USERPROFILE%\personal\utils\misc\7zip\7za.exe a -tzip -r 

@@ -12,7 +12,7 @@
             <hbox>
                 <vbox flex="1" align="center">
                     <label value="Yant" class="header" />
-                    <label value="Version 0.1.3" />
+                    <label value="Version 0.2.0" />
                 </vbox>
             </hbox>
             <separator />
@@ -27,7 +27,8 @@
                 </vbox>
             </hbox>
             <separator />
-            <description>Loads homepage or other URL when new tab is opened in Firefox.</description>
+            <description>Yet Another "New Tab" Firefox add-on.</description>
+            <description>Loads homepage or any other URL when new tab is open in Firefox.</description>
         </vbox>
     </hbox>
 </vbox></vbox>
