@@ -21,6 +21,7 @@ https://addons.mozilla.org/en-US/firefox/addon/yant/
 ### Frequently asked questions (FAQ)
 
 * [How to change add-on options](https://github.com/vurdalakov/yant/wiki/FAQ:-How-to-change-add-on-options)
+* [How to load a local HTML file when new tab is opened](https://github.com/vurdalakov/yant/wiki/FAQ:-How-to-load-a-local-HTML-file-when-new-tab-is-opened)
 
 ### License
 
