@@ -2,6 +2,8 @@
 
 <p align="right"><i>Do only one thing but do it well.</i></p>
 
+**This project is discontinued.** I recommend to install [New Tab Override](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/) add-on, you can also get its [source code](https://git.agenedia.com/firefox-add-ons/newtaboverride).
+
 ### About
 
 **Yant** is <b>Y</b>et <b>A</b>nother "<b>N</b>ew <b>T</b>ab" Firefox add-on.
